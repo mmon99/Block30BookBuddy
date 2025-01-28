@@ -41,7 +41,7 @@ const BookDetails = ({ bookDetails, setBookDetails }) => {
       <br />
 
       {!isCheckedOut ? (
-        <button onClick={handleCheckOut}>Checkout</button>
+        <button onClick={handleCheckOut}>Check Out</button>
       ) : (
         <button onClick={handleReturn}>Return Book</button>
       )}

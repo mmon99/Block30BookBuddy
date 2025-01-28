@@ -36,7 +36,7 @@ const Login = ({ setUser }) => {
         placeholder="Password" 
         required 
       />
-      <button>Login</button>
+      <button>Log In</button>
     </form>
   );
 };

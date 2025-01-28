@@ -18,7 +18,7 @@ const App = () => {
           <Link to="/books">Home</Link>
           {!user ? (
             <>
-              <Link to="/login">Login</Link>
+              <Link to="/login">Log In</Link>
               <Link to="/register">Register</Link>
             </>
           ) : (
