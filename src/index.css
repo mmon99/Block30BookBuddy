@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 50px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: red;
+  margin-top: 50px;
+}
+
+h3 {
+  color: green;
+}
+
+p{
+  text-align: justify;
+}
+
+ol {
+  margin-top: 70px;
+}
+
+li {
+  background-color: aliceblue;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: cadetblue;
+  cursor: pointer;
+}
+
+nav {
+  margin: 20px
+}
+
+nav a {
+  margin: 20px;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+  background-color: yellow;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border: gold;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
