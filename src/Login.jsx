@@ -7,7 +7,7 @@ const Login = ({ setUser }) => {
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('https://fsa-book-buddy-b6e748d1380d.herokuapp.com/api/login', {
+      const response = await fetch('https://fsa-book-buddy-b6e748d1380d.herokuapp.com/api/users/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),
